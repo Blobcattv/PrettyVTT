@@ -1,0 +1,35 @@
+body {
+  --chat-box-border: #f00;
+  --chat-box-shadow: #ff6400;
+  --blue-alpha-background: #1818bd65;
+}
+
+.pv-chat-box {
+  margin-bottom: 4px;
+  background: none;
+  background-color: rgb(205 204 223) !important;
+  border: 2px solid rgb(34 21 177 / 45.9%) !important;
+  box-shadow: 0 0 5px rgb(28 21 105 / 45.9%) !important;
+}
+
+.pv-sidebar {
+  padding: 2px 1px;
+  background-color: var(--blue-alpha-background);
+  border: 2px solid rgb(37 29 124 / 45.9%) !important;
+  border-radius: 8px;
+  box-shadow: 0 0 4px var(--blue-alpha-background) !important;
+}
+
+.pv-chat-form {
+  margin-top: 0;
+  color: white !important;
+  background: none !important;
+  background-color: rgb(1 0 14) !important;
+  border: 2px solid rgb(33 26 114 / 45.9%) !important;
+  border-radius: 5px;
+}
+
+.pv-chat-form:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgb(11 11 184);
+}
